@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Comedor Campesino</title>
+</head>
+<body>
+ <h1>Bienvenido a Comedor Campesino</h1>
+ <hr>
+ <h2 id="intro">Introduccion </h2>
+
+ <img src="hamburguesa.png" alt="" width="900"> <!-- width es el ancho de la imagen y src es el link de la imagen y lo tenemos guardado en una carpeta--> <!-- height es el largo de la imagen pero en esta ocasion no lo puse--> 
+ <br>
+ <hr>
+
+ <nav>
+  <a href="#intro">Introduccion</a> <!-- links para ir a una parte de la pagina web -->
+  <a href="#link">Enlaces</a>
+  <a href="#lists">Listas</a>
+  <a href="#laotra">Ir a mi segunda pagina web</a>
+  <a href="#archivos">Descargar archivos</a>
+  <a href="#desorden">Lista Desordenada</Datag></a>
+  <a href="#ordenadas">Lista Ordenada</a>
+  <a href="#union">Lista anidadas</a>
+  <a href="#tabla">Ver tablas</a>
+  <a href="#f">Formularios</a>
+  <a href="#videos">Ver el video</a>
+  <br>
+  <br>
+
+
+ </nav>
+ <p>"En nuestro comedor de comida, la experiencia culinaria adquiere un nuevo significado. Sumérgete en un mundo de sabores y aromas que te transportarán a un viaje gastronómico inigualable. Nuestra misión es ofrecerte no solo platos deliciosos, sino también momentos memorables en cada comida. Descubre la magia de la buena comida en nuestro comedor y déjate llevar por la pasión por la gastronomía que nos distingue. ¡Bienvenido a un lugar donde los sabores se convierten en emociones!"</p>
+ <br>
+ <p><strong>"¡Bienvenidos al Comedor <a target="_blank" href="https://www.wikipedia.org/">comedor</a> El Campesino! Donde cada plato es una experiencia de sabor y tradición. ¡Disfruten de nuestra deliciosa comida casera todos los días!"</strong></p>
+ <br>
+ <h2 id="link"><strong>Enlaces</strong></h2>
+ <p>Ubicacion actual del comedor: </p>
+ <a href="https://www.google.com/maps/dir//6+avenida+%22B+17-37,+Cdad.+de+Guatemala+01009/@14.5829128,-90.5343089,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8589a170bb33eb33:0x4ce05f5b19819889!2m2!1d-90.5339749!2d14.5829004?entry=ttu">Ubicacion del Comedor aqui.</a>
+
+ <h2 id="lists">Listas</h2>
+ <p><strong>"Ven por la comida, quédate por la experiencia."</strong></p>
+
+ <h2 id="laotra">Ir a mi segunda pagina web</h2>
+ <a target="_blank" href="curso_html1.html">aqui para ir</a>
+
+ <h2 id="archivos">Descargar archivos</h2>
+ <a href="hola.zip">Descargar</a>
+
+ <h2 id="desorden">Como Crear listas Desordenadas</h2>
+ <!-- <ul> nos permite crear una lista desordenada -->
+  <ul type="square">
+   <li>papas</li>
+   <li>ensalada</li>
+  </ul>
+<hr>
+  <h2 id="ordenadas">Crear listas Ordenadas</h2>
+  <!-- <ol> nos permite crear una lista desordenada -->
+
+   <ol type="A">
+    <li>Desayunos</li>
+    <li>Alumuerzos</li>
+    <li>Cenas</li>
+   </ol>
+
+   <h2 id="union">Listas Anidadas</h2>
+   <!-- crear una lista dentro de otra lista -->
+    <ul>
+     <li>primera lista</li>
+     <ul>
+      <li>primera lista aninada</li>
+     </ul>
+    </ul>
+
+    <h2>Lista descripcion</h2>
+    <dl>
+     <dt>HTML</dt>
+     <dd>HTML es la base de la mayoría de las páginas web que ves en línea. A medida que aprendes más sobre HTML, podrás crear y diseñar contenido web de manera efectiva.</dd>
+     <dt>Css</dt>
+     <dd>En resumen, CSS es fundamental para la apariencia y el diseño de una página web, permitiendo a los diseñadores y desarrolladores controlar cómo se presenta el contenido a los visitantes.</dd>
+     <dt>JavaScript</dt>
+     <dd>JavaScript es un lenguaje de programación que se utiliza para agregar interactividad y funcionalidad a sitios web.</dd>
+    </dl>
+<hr>
+<br>
+    <img src="aguacate.webp" alt="" width="400" title="AGUACATE LINDO">  <!-- TITLE ES PARA QUE CUANDO PASEMOS EL CURSO POR LA IMAGEN SE VEA EL TITULO QUE PUSIMOS -->
+
+    <h2 id="tabla">Creacion de tablas</h2>
+
+    <table border="1"> <!-- el numero del borde es el grosor de tal borde -->
+     <!-- creacion de fila -->
+     <tr>
+      <th colspan="5">Horario</th>
+      <th colspan="2">Fin de semana</th>
+     </tr>
+     <tr>
+      <th>LUNES</th>
+      <th>MARTES</th>
+      <th>MIERCOLES</th>
+      <th>JUEVES</th>
+      <th>VIERNES</th>
+      <th>SABADO</th>
+      <th>DOMINGO</th>
+     </th>
+     <tr>
+      <td>programar</td>
+      <td>programar</td>
+      <td>programar</td>
+      <td>programar</td>
+      <td>programar</td>
+      <td>programar</td>
+      <td>programar</td>
+
+
+     </tr>
+    </table>
+
+    <h2 id="f">Formulario</h2>
+    <form action="">
+
+     <fieldset>
+      <legend> Datos Usuarios </legend>
+     <label for="name">Nombre: </label><br>
+     <input type="text" id="name" name="name"> <br><br>
+     <label for="pass">Contraseña: </label><br>
+     <input type="password" id="pass" name="pass"><br><br>
+ 
+     <label for="correo">correo: </label><br>
+     <input type="email" id="correo" name="correo"><br><br>
+
+     <label for="cumple">Nacimiento</label>
+     <input type="date" id="cumple" name="cumple">
+
+
+
+    </fieldset>
+
+   </form>
+
+   <h2 id="videos">Insertar Videos</h2>
+   <h4>De mi Ed Maverick ft Jose :v</h4>
+
+   <audio controls ><source src="Dromedarios Mágicos - De Mí (feat. Ed Maverick) [Video Oficial](MP3_70K).mp3" type="audio/mp3"></audio>
+   <br>
+   <br>
+
+   <h3>video tik tok Jose</h3>
+
+   <video src="Download - 2023-08-31T170206.549.mp4" controls width="500" autoplay></video>
+    
+   
+   
+
+
+</body>
+</html>
